@@ -1,0 +1,4 @@
+identifier: test
+blueprint: Service
+properties: 
+  readme: file://README.md
