@@ -1,4 +1,4 @@
-identifier: testrt
+identifier: testrte
 blueprint: Service
 properties: 
   readme: file://README.md
