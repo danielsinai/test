@@ -8,6 +8,12 @@ metadata:
   annotations:
     example.com/service-discovery: artistweb
     circleci.com/project-slug: github/example-org/artist-website
+    getport.io/search-query:
+      combinator: 'and'
+      rules: 
+        - property: $blueprint
+          operator: '='
+          value: 'jiraIssue'
   tags:
     - java
   links:
